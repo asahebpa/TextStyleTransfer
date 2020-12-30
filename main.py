@@ -22,7 +22,7 @@ if __name__ == '__main__':
         Obtaining_Embeddings()
 
     # Second Step: Using embeddings from sentence BERT in order to train three different paths for style transformation
-    if (path.exists('./models') == False) or (Retrain == True):
+    if (path.exists('./models/posdecoder') == False) or (Retrain == True):
         Embeddings_Pos = np.load('./embeddings/embpos200k.npy')
         Embeddings_Neg = np.load('./embeddings/embneg200k.npy')
         Training_procedure(LR, maxepoch, Number_of_Iterations, Number_of_steps, Print_Interval, device, Embeddings_Pos,
