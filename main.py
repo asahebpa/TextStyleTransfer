@@ -14,7 +14,7 @@ if __name__ == '__main__':
     Number_of_Iterations = 4
     Number_of_steps = 3  # 1.Train only Autoencoders. 2.Train Autoencoders and Butterfyl path 3.Train all three paths
     Print_Interval = 1000
-    Retrain = False
+    Retrain = True
 
     # First Step: Finding embeddings by using Sentence BERT
     # https://github.com/aneesha/SiameseBERT-Notebook/blob/master/SiameseBERT_SemanticSearch.ipynb
