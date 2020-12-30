@@ -18,7 +18,7 @@ import math
 import time
 from nltk.tokenize import word_tokenize
 from nltk.translate.bleu_score import sentence_bleu
-from NetworksStructure import *
+from EncDecStructure import *
 
 nltk.download('stopwords')
 nltk.download('punkt')
