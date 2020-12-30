@@ -5,7 +5,7 @@ import torch.nn as nn
 import torch.nn.functional as F
 from os import path
 import os
-from NetworksStructure import *
+from EncDecStructure import *
 import pandas as pd
 from sentence_transformers import SentenceTransformer
 import re
